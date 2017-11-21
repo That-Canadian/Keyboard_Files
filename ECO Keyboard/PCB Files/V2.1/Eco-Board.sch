@@ -1,0 +1,2050 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:canadian_parts
+LIBS:keyboard_parts
+LIBS:ProMicro
+LIBS:Eco-Board-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SW_PUSH SW1
+U 1 1 5924D07B
+P 2550 1350
+F 0 "SW1" H 2700 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2550 1350 50  0001 C CNN
+F 3 "" H 2550 1350 50  0000 C CNN
+	1    2550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D1
+U 1 1 5924D0DA
+P 2550 1600
+F 0 "D1" H 2550 1700 50  0000 C CNN
+F 1 "D" H 2550 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 2550 1600 50  0001 C CNN
+F 3 "" H 2550 1600 50  0001 C CNN
+	1    2550 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW5
+U 1 1 5924D185
+P 3300 1350
+F 0 "SW5" H 3450 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 3300 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3300 1350 50  0001 C CNN
+F 3 "" H 3300 1350 50  0000 C CNN
+	1    3300 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D5
+U 1 1 5924D18B
+P 3300 1600
+F 0 "D5" H 3300 1700 50  0000 C CNN
+F 1 "D" H 3300 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW9
+U 1 1 5924D244
+P 4100 1350
+F 0 "SW9" H 4250 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4100 1350 50  0001 C CNN
+F 3 "" H 4100 1350 50  0000 C CNN
+	1    4100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D9
+U 1 1 5924D24A
+P 4100 1600
+F 0 "D9" H 4100 1700 50  0000 C CNN
+F 1 "D" H 4100 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4100 1600 50  0001 C CNN
+F 3 "" H 4100 1600 50  0001 C CNN
+	1    4100 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW13
+U 1 1 5924D253
+P 4850 1350
+F 0 "SW13" H 5000 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 4850 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 1350 50  0001 C CNN
+F 3 "" H 4850 1350 50  0000 C CNN
+	1    4850 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D13
+U 1 1 5924D259
+P 4850 1600
+F 0 "D13" H 4850 1700 50  0000 C CNN
+F 1 "D" H 4850 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4850 1600 50  0001 C CNN
+F 3 "" H 4850 1600 50  0001 C CNN
+	1    4850 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW17
+U 1 1 5924D4CA
+P 5600 1350
+F 0 "SW17" H 5750 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5600 1350 50  0001 C CNN
+F 3 "" H 5600 1350 50  0000 C CNN
+	1    5600 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D17
+U 1 1 5924D4D0
+P 5600 1600
+F 0 "D17" H 5600 1700 50  0000 C CNN
+F 1 "D" H 5600 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 5600 1600 50  0001 C CNN
+F 3 "" H 5600 1600 50  0001 C CNN
+	1    5600 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW22
+U 1 1 5924D4D9
+P 6350 1350
+F 0 "SW22" H 6500 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6350 1350 50  0001 C CNN
+F 3 "" H 6350 1350 50  0000 C CNN
+	1    6350 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D21
+U 1 1 5924D4DF
+P 6350 1600
+F 0 "D21" H 6350 1700 50  0000 C CNN
+F 1 "D" H 6350 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 6350 1600 50  0001 C CNN
+F 3 "" H 6350 1600 50  0001 C CNN
+	1    6350 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW26
+U 1 1 5924D4E8
+P 7150 1350
+F 0 "SW26" H 7300 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7150 1350 50  0001 C CNN
+F 3 "" H 7150 1350 50  0000 C CNN
+	1    7150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D25
+U 1 1 5924D4EE
+P 7150 1600
+F 0 "D25" H 7150 1700 50  0000 C CNN
+F 1 "D" H 7150 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7150 1600 50  0001 C CNN
+F 3 "" H 7150 1600 50  0001 C CNN
+	1    7150 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW31
+U 1 1 5924D4F7
+P 7900 1350
+F 0 "SW31" H 8050 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7900 1350 50  0001 C CNN
+F 3 "" H 7900 1350 50  0000 C CNN
+	1    7900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D29
+U 1 1 5924D4FD
+P 7900 1600
+F 0 "D29" H 7900 1700 50  0000 C CNN
+F 1 "D" H 7900 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7900 1600 50  0001 C CNN
+F 3 "" H 7900 1600 50  0001 C CNN
+	1    7900 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW35
+U 1 1 5924E276
+P 8700 1350
+F 0 "SW35" H 8850 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8700 1350 50  0001 C CNN
+F 3 "" H 8700 1350 50  0000 C CNN
+	1    8700 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D33
+U 1 1 5924E27C
+P 8700 1600
+F 0 "D33" H 8700 1700 50  0000 C CNN
+F 1 "D" H 8700 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 8700 1600 50  0001 C CNN
+F 3 "" H 8700 1600 50  0001 C CNN
+	1    8700 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW40
+U 1 1 5924E285
+P 9450 1350
+F 0 "SW40" H 9600 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 9450 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9450 1350 50  0001 C CNN
+F 3 "" H 9450 1350 50  0000 C CNN
+	1    9450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D37
+U 1 1 5924E28B
+P 9450 1600
+F 0 "D37" H 9450 1700 50  0000 C CNN
+F 1 "D" H 9450 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 9450 1600 50  0001 C CNN
+F 3 "" H 9450 1600 50  0001 C CNN
+	1    9450 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW44
+U 1 1 5924E294
+P 10250 1350
+F 0 "SW44" H 10400 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 10250 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10250 1350 50  0001 C CNN
+F 3 "" H 10250 1350 50  0000 C CNN
+	1    10250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D41
+U 1 1 5924E29A
+P 10250 1600
+F 0 "D41" H 10250 1700 50  0000 C CNN
+F 1 "D" H 10250 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 10250 1600 50  0001 C CNN
+F 3 "" H 10250 1600 50  0001 C CNN
+	1    10250 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW48
+U 1 1 5924E2A3
+P 11000 1350
+F 0 "SW48" H 11150 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 11000 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11000 1350 50  0001 C CNN
+F 3 "" H 11000 1350 50  0000 C CNN
+	1    11000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D45
+U 1 1 5924E2A9
+P 11000 1600
+F 0 "D45" H 11000 1700 50  0000 C CNN
+F 1 "D" H 11000 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11000 1600 50  0001 C CNN
+F 3 "" H 11000 1600 50  0001 C CNN
+	1    11000 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW52
+U 1 1 5924E2B2
+P 11750 1350
+F 0 "SW52" H 11900 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 11750 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11750 1350 50  0001 C CNN
+F 3 "" H 11750 1350 50  0000 C CNN
+	1    11750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D49
+U 1 1 5924E2B8
+P 11750 1600
+F 0 "D49" H 11750 1700 50  0000 C CNN
+F 1 "D" H 11750 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11750 1600 50  0001 C CNN
+F 3 "" H 11750 1600 50  0001 C CNN
+	1    11750 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW56
+U 1 1 5924E2C1
+P 12500 1350
+F 0 "SW56" H 12650 1460 50  0000 C CNN
+F 1 "SW_PUSH" H 12500 1270 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12500 1350 50  0001 C CNN
+F 3 "" H 12500 1350 50  0000 C CNN
+	1    12500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D53
+U 1 1 5924E2C7
+P 12500 1600
+F 0 "D53" H 12500 1700 50  0000 C CNN
+F 1 "D" H 12500 1500 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 12500 1600 50  0001 C CNN
+F 3 "" H 12500 1600 50  0001 C CNN
+	1    12500 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 5924E928
+P 2550 2250
+F 0 "SW2" H 2700 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2550 2250 50  0001 C CNN
+F 3 "" H 2550 2250 50  0000 C CNN
+	1    2550 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D2
+U 1 1 5924E92E
+P 2550 2500
+F 0 "D2" H 2550 2600 50  0000 C CNN
+F 1 "D" H 2550 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 2550 2500 50  0001 C CNN
+F 3 "" H 2550 2500 50  0001 C CNN
+	1    2550 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW6
+U 1 1 5924E937
+P 3300 2250
+F 0 "SW6" H 3450 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 3300 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3300 2250 50  0001 C CNN
+F 3 "" H 3300 2250 50  0000 C CNN
+	1    3300 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D6
+U 1 1 5924E93D
+P 3300 2500
+F 0 "D6" H 3300 2600 50  0000 C CNN
+F 1 "D" H 3300 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 3300 2500 50  0001 C CNN
+F 3 "" H 3300 2500 50  0001 C CNN
+	1    3300 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW10
+U 1 1 5924E946
+P 4100 2250
+F 0 "SW10" H 4250 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4100 2250 50  0001 C CNN
+F 3 "" H 4100 2250 50  0000 C CNN
+	1    4100 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D10
+U 1 1 5924E94C
+P 4100 2500
+F 0 "D10" H 4100 2600 50  0000 C CNN
+F 1 "D" H 4100 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4100 2500 50  0001 C CNN
+F 3 "" H 4100 2500 50  0001 C CNN
+	1    4100 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW14
+U 1 1 5924E955
+P 4850 2250
+F 0 "SW14" H 5000 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 4850 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 2250 50  0001 C CNN
+F 3 "" H 4850 2250 50  0000 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D14
+U 1 1 5924E95B
+P 4850 2500
+F 0 "D14" H 4850 2600 50  0000 C CNN
+F 1 "D" H 4850 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4850 2500 50  0001 C CNN
+F 3 "" H 4850 2500 50  0001 C CNN
+	1    4850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW18
+U 1 1 5924E964
+P 5600 2250
+F 0 "SW18" H 5750 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5600 2250 50  0001 C CNN
+F 3 "" H 5600 2250 50  0000 C CNN
+	1    5600 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D18
+U 1 1 5924E96A
+P 5600 2500
+F 0 "D18" H 5600 2600 50  0000 C CNN
+F 1 "D" H 5600 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 5600 2500 50  0001 C CNN
+F 3 "" H 5600 2500 50  0001 C CNN
+	1    5600 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW23
+U 1 1 5924E973
+P 6350 2250
+F 0 "SW23" H 6500 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6350 2250 50  0001 C CNN
+F 3 "" H 6350 2250 50  0000 C CNN
+	1    6350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D22
+U 1 1 5924E979
+P 6350 2500
+F 0 "D22" H 6350 2600 50  0000 C CNN
+F 1 "D" H 6350 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 6350 2500 50  0001 C CNN
+F 3 "" H 6350 2500 50  0001 C CNN
+	1    6350 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW27
+U 1 1 5924E982
+P 7150 2250
+F 0 "SW27" H 7300 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7150 2250 50  0001 C CNN
+F 3 "" H 7150 2250 50  0000 C CNN
+	1    7150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D26
+U 1 1 5924E988
+P 7150 2500
+F 0 "D26" H 7150 2600 50  0000 C CNN
+F 1 "D" H 7150 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7150 2500 50  0001 C CNN
+F 3 "" H 7150 2500 50  0001 C CNN
+	1    7150 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW32
+U 1 1 5924E991
+P 7900 2250
+F 0 "SW32" H 8050 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7900 2250 50  0001 C CNN
+F 3 "" H 7900 2250 50  0000 C CNN
+	1    7900 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D30
+U 1 1 5924E997
+P 7900 2500
+F 0 "D30" H 7900 2600 50  0000 C CNN
+F 1 "D" H 7900 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7900 2500 50  0001 C CNN
+F 3 "" H 7900 2500 50  0001 C CNN
+	1    7900 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW36
+U 1 1 5924E9A0
+P 8700 2250
+F 0 "SW36" H 8850 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8700 2250 50  0001 C CNN
+F 3 "" H 8700 2250 50  0000 C CNN
+	1    8700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D34
+U 1 1 5924E9A6
+P 8700 2500
+F 0 "D34" H 8700 2600 50  0000 C CNN
+F 1 "D" H 8700 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 8700 2500 50  0001 C CNN
+F 3 "" H 8700 2500 50  0001 C CNN
+	1    8700 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW41
+U 1 1 5924E9AF
+P 9450 2250
+F 0 "SW41" H 9600 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 9450 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9450 2250 50  0001 C CNN
+F 3 "" H 9450 2250 50  0000 C CNN
+	1    9450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D38
+U 1 1 5924E9B5
+P 9450 2500
+F 0 "D38" H 9450 2600 50  0000 C CNN
+F 1 "D" H 9450 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 9450 2500 50  0001 C CNN
+F 3 "" H 9450 2500 50  0001 C CNN
+	1    9450 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW45
+U 1 1 5924E9BE
+P 10250 2250
+F 0 "SW45" H 10400 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 10250 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10250 2250 50  0001 C CNN
+F 3 "" H 10250 2250 50  0000 C CNN
+	1    10250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D42
+U 1 1 5924E9C4
+P 10250 2500
+F 0 "D42" H 10250 2600 50  0000 C CNN
+F 1 "D" H 10250 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 10250 2500 50  0001 C CNN
+F 3 "" H 10250 2500 50  0001 C CNN
+	1    10250 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW49
+U 1 1 5924E9CD
+P 11000 2250
+F 0 "SW49" H 11150 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 11000 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11000 2250 50  0001 C CNN
+F 3 "" H 11000 2250 50  0000 C CNN
+	1    11000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D46
+U 1 1 5924E9D3
+P 11000 2500
+F 0 "D46" H 11000 2600 50  0000 C CNN
+F 1 "D" H 11000 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11000 2500 50  0001 C CNN
+F 3 "" H 11000 2500 50  0001 C CNN
+	1    11000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW53
+U 1 1 5924E9DC
+P 11750 2250
+F 0 "SW53" H 11900 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 11750 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11750 2250 50  0001 C CNN
+F 3 "" H 11750 2250 50  0000 C CNN
+	1    11750 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D50
+U 1 1 5924E9E2
+P 11750 2500
+F 0 "D50" H 11750 2600 50  0000 C CNN
+F 1 "D" H 11750 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11750 2500 50  0001 C CNN
+F 3 "" H 11750 2500 50  0001 C CNN
+	1    11750 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW57
+U 1 1 5924E9EB
+P 12500 2250
+F 0 "SW57" H 12650 2360 50  0000 C CNN
+F 1 "SW_PUSH" H 12500 2170 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12500 2250 50  0001 C CNN
+F 3 "" H 12500 2250 50  0000 C CNN
+	1    12500 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D54
+U 1 1 5924E9F1
+P 12500 2500
+F 0 "D54" H 12500 2600 50  0000 C CNN
+F 1 "D" H 12500 2400 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 12500 2500 50  0001 C CNN
+F 3 "" H 12500 2500 50  0001 C CNN
+	1    12500 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW3
+U 1 1 5924F362
+P 2550 3150
+F 0 "SW3" H 2700 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2550 3150 50  0001 C CNN
+F 3 "" H 2550 3150 50  0000 C CNN
+	1    2550 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D3
+U 1 1 5924F368
+P 2550 3400
+F 0 "D3" H 2550 3500 50  0000 C CNN
+F 1 "D" H 2550 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 2550 3400 50  0001 C CNN
+F 3 "" H 2550 3400 50  0001 C CNN
+	1    2550 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW7
+U 1 1 5924F371
+P 3300 3150
+F 0 "SW7" H 3450 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 3300 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3300 3150 50  0001 C CNN
+F 3 "" H 3300 3150 50  0000 C CNN
+	1    3300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D7
+U 1 1 5924F377
+P 3300 3400
+F 0 "D7" H 3300 3500 50  0000 C CNN
+F 1 "D" H 3300 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 3300 3400 50  0001 C CNN
+F 3 "" H 3300 3400 50  0001 C CNN
+	1    3300 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW11
+U 1 1 5924F380
+P 4100 3150
+F 0 "SW11" H 4250 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4100 3150 50  0001 C CNN
+F 3 "" H 4100 3150 50  0000 C CNN
+	1    4100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D11
+U 1 1 5924F386
+P 4100 3400
+F 0 "D11" H 4100 3500 50  0000 C CNN
+F 1 "D" H 4100 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4100 3400 50  0001 C CNN
+F 3 "" H 4100 3400 50  0001 C CNN
+	1    4100 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW15
+U 1 1 5924F38F
+P 4850 3150
+F 0 "SW15" H 5000 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 4850 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 3150 50  0001 C CNN
+F 3 "" H 4850 3150 50  0000 C CNN
+	1    4850 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D15
+U 1 1 5924F395
+P 4850 3400
+F 0 "D15" H 4850 3500 50  0000 C CNN
+F 1 "D" H 4850 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW19
+U 1 1 5924F39E
+P 5600 3150
+F 0 "SW19" H 5750 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5600 3150 50  0001 C CNN
+F 3 "" H 5600 3150 50  0000 C CNN
+	1    5600 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D19
+U 1 1 5924F3A4
+P 5600 3400
+F 0 "D19" H 5600 3500 50  0000 C CNN
+F 1 "D" H 5600 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 5600 3400 50  0001 C CNN
+F 3 "" H 5600 3400 50  0001 C CNN
+	1    5600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW24
+U 1 1 5924F3AD
+P 6350 3150
+F 0 "SW24" H 6500 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6350 3150 50  0001 C CNN
+F 3 "" H 6350 3150 50  0000 C CNN
+	1    6350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D23
+U 1 1 5924F3B3
+P 6350 3400
+F 0 "D23" H 6350 3500 50  0000 C CNN
+F 1 "D" H 6350 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 6350 3400 50  0001 C CNN
+F 3 "" H 6350 3400 50  0001 C CNN
+	1    6350 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW28
+U 1 1 5924F3BC
+P 7150 3150
+F 0 "SW28" H 7300 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7150 3150 50  0001 C CNN
+F 3 "" H 7150 3150 50  0000 C CNN
+	1    7150 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D27
+U 1 1 5924F3C2
+P 7150 3400
+F 0 "D27" H 7150 3500 50  0000 C CNN
+F 1 "D" H 7150 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7150 3400 50  0001 C CNN
+F 3 "" H 7150 3400 50  0001 C CNN
+	1    7150 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW33
+U 1 1 5924F3CB
+P 7900 3150
+F 0 "SW33" H 8050 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7900 3150 50  0001 C CNN
+F 3 "" H 7900 3150 50  0000 C CNN
+	1    7900 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D31
+U 1 1 5924F3D1
+P 7900 3400
+F 0 "D31" H 7900 3500 50  0000 C CNN
+F 1 "D" H 7900 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7900 3400 50  0001 C CNN
+F 3 "" H 7900 3400 50  0001 C CNN
+	1    7900 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW37
+U 1 1 5924F3DA
+P 8700 3150
+F 0 "SW37" H 8850 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8700 3150 50  0001 C CNN
+F 3 "" H 8700 3150 50  0000 C CNN
+	1    8700 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D35
+U 1 1 5924F3E0
+P 8700 3400
+F 0 "D35" H 8700 3500 50  0000 C CNN
+F 1 "D" H 8700 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 8700 3400 50  0001 C CNN
+F 3 "" H 8700 3400 50  0001 C CNN
+	1    8700 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW42
+U 1 1 5924F3E9
+P 9450 3150
+F 0 "SW42" H 9600 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 9450 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9450 3150 50  0001 C CNN
+F 3 "" H 9450 3150 50  0000 C CNN
+	1    9450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D39
+U 1 1 5924F3EF
+P 9450 3400
+F 0 "D39" H 9450 3500 50  0000 C CNN
+F 1 "D" H 9450 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 9450 3400 50  0001 C CNN
+F 3 "" H 9450 3400 50  0001 C CNN
+	1    9450 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW46
+U 1 1 5924F3F8
+P 10250 3150
+F 0 "SW46" H 10400 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 10250 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10250 3150 50  0001 C CNN
+F 3 "" H 10250 3150 50  0000 C CNN
+	1    10250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D43
+U 1 1 5924F3FE
+P 10250 3400
+F 0 "D43" H 10250 3500 50  0000 C CNN
+F 1 "D" H 10250 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 10250 3400 50  0001 C CNN
+F 3 "" H 10250 3400 50  0001 C CNN
+	1    10250 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW50
+U 1 1 5924F407
+P 11000 3150
+F 0 "SW50" H 11150 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 11000 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11000 3150 50  0001 C CNN
+F 3 "" H 11000 3150 50  0000 C CNN
+	1    11000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D47
+U 1 1 5924F40D
+P 11000 3400
+F 0 "D47" H 11000 3500 50  0000 C CNN
+F 1 "D" H 11000 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11000 3400 50  0001 C CNN
+F 3 "" H 11000 3400 50  0001 C CNN
+	1    11000 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW54
+U 1 1 5924F416
+P 11750 3150
+F 0 "SW54" H 11900 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 11750 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11750 3150 50  0001 C CNN
+F 3 "" H 11750 3150 50  0000 C CNN
+	1    11750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D51
+U 1 1 5924F41C
+P 11750 3400
+F 0 "D51" H 11750 3500 50  0000 C CNN
+F 1 "D" H 11750 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11750 3400 50  0001 C CNN
+F 3 "" H 11750 3400 50  0001 C CNN
+	1    11750 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW58
+U 1 1 5924F425
+P 12500 3150
+F 0 "SW58" H 12650 3260 50  0000 C CNN
+F 1 "SW_PUSH" H 12500 3070 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12500 3150 50  0001 C CNN
+F 3 "" H 12500 3150 50  0000 C CNN
+	1    12500 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D55
+U 1 1 5924F42B
+P 12500 3400
+F 0 "D55" H 12500 3500 50  0000 C CNN
+F 1 "D" H 12500 3300 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 12500 3400 50  0001 C CNN
+F 3 "" H 12500 3400 50  0001 C CNN
+	1    12500 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW4
+U 1 1 5924F434
+P 2550 4050
+F 0 "SW4" H 2700 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 2550 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 2550 4050 50  0001 C CNN
+F 3 "" H 2550 4050 50  0000 C CNN
+	1    2550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D4
+U 1 1 5924F43A
+P 2550 4300
+F 0 "D4" H 2550 4400 50  0000 C CNN
+F 1 "D" H 2550 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 2550 4300 50  0001 C CNN
+F 3 "" H 2550 4300 50  0001 C CNN
+	1    2550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW8
+U 1 1 5924F443
+P 3300 4050
+F 0 "SW8" H 3450 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 3300 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 3300 4050 50  0001 C CNN
+F 3 "" H 3300 4050 50  0000 C CNN
+	1    3300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D8
+U 1 1 5924F449
+P 3300 4300
+F 0 "D8" H 3300 4400 50  0000 C CNN
+F 1 "D" H 3300 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 3300 4300 50  0001 C CNN
+F 3 "" H 3300 4300 50  0001 C CNN
+	1    3300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW12
+U 1 1 5924F452
+P 4100 4050
+F 0 "SW12" H 4250 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 4100 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4100 4050 50  0001 C CNN
+F 3 "" H 4100 4050 50  0000 C CNN
+	1    4100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D12
+U 1 1 5924F458
+P 4100 4300
+F 0 "D12" H 4100 4400 50  0000 C CNN
+F 1 "D" H 4100 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4100 4300 50  0001 C CNN
+F 3 "" H 4100 4300 50  0001 C CNN
+	1    4100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW16
+U 1 1 5924F461
+P 4850 4050
+F 0 "SW16" H 5000 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 4850 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 4850 4050 50  0001 C CNN
+F 3 "" H 4850 4050 50  0000 C CNN
+	1    4850 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D16
+U 1 1 5924F467
+P 4850 4300
+F 0 "D16" H 4850 4400 50  0000 C CNN
+F 1 "D" H 4850 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 4850 4300 50  0001 C CNN
+F 3 "" H 4850 4300 50  0001 C CNN
+	1    4850 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW21
+U 1 1 5924F470
+P 5600 4050
+F 0 "SW21" H 5750 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 5600 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 5600 4050 50  0001 C CNN
+F 3 "" H 5600 4050 50  0000 C CNN
+	1    5600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D20
+U 1 1 5924F476
+P 5600 4300
+F 0 "D20" H 5600 4400 50  0000 C CNN
+F 1 "D" H 5600 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 5600 4300 50  0001 C CNN
+F 3 "" H 5600 4300 50  0001 C CNN
+	1    5600 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW25
+U 1 1 5924F47F
+P 6350 4050
+F 0 "SW25" H 6500 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 6350 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 6350 4050 50  0001 C CNN
+F 3 "" H 6350 4050 50  0000 C CNN
+	1    6350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D24
+U 1 1 5924F485
+P 6350 4300
+F 0 "D24" H 6350 4400 50  0000 C CNN
+F 1 "D" H 6350 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 6350 4300 50  0001 C CNN
+F 3 "" H 6350 4300 50  0001 C CNN
+	1    6350 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW30
+U 1 1 5924F48E
+P 7150 4050
+F 0 "SW30" H 7300 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 7150 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7150 4050 50  0001 C CNN
+F 3 "" H 7150 4050 50  0000 C CNN
+	1    7150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D28
+U 1 1 5924F494
+P 7150 4300
+F 0 "D28" H 7150 4400 50  0000 C CNN
+F 1 "D" H 7150 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7150 4300 50  0001 C CNN
+F 3 "" H 7150 4300 50  0001 C CNN
+	1    7150 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW34
+U 1 1 5924F49D
+P 7900 4050
+F 0 "SW34" H 8050 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 7900 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 7900 4050 50  0001 C CNN
+F 3 "" H 7900 4050 50  0000 C CNN
+	1    7900 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D32
+U 1 1 5924F4A3
+P 7900 4300
+F 0 "D32" H 7900 4400 50  0000 C CNN
+F 1 "D" H 7900 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 7900 4300 50  0001 C CNN
+F 3 "" H 7900 4300 50  0001 C CNN
+	1    7900 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW39
+U 1 1 5924F4AC
+P 8700 4050
+F 0 "SW39" H 8850 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 8700 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 8700 4050 50  0001 C CNN
+F 3 "" H 8700 4050 50  0000 C CNN
+	1    8700 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D36
+U 1 1 5924F4B2
+P 8700 4300
+F 0 "D36" H 8700 4400 50  0000 C CNN
+F 1 "D" H 8700 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 8700 4300 50  0001 C CNN
+F 3 "" H 8700 4300 50  0001 C CNN
+	1    8700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW43
+U 1 1 5924F4BB
+P 9450 4050
+F 0 "SW43" H 9600 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 9450 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 9450 4050 50  0001 C CNN
+F 3 "" H 9450 4050 50  0000 C CNN
+	1    9450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D40
+U 1 1 5924F4C1
+P 9450 4300
+F 0 "D40" H 9450 4400 50  0000 C CNN
+F 1 "D" H 9450 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 9450 4300 50  0001 C CNN
+F 3 "" H 9450 4300 50  0001 C CNN
+	1    9450 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW47
+U 1 1 5924F4CA
+P 10250 4050
+F 0 "SW47" H 10400 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 10250 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 10250 4050 50  0001 C CNN
+F 3 "" H 10250 4050 50  0000 C CNN
+	1    10250 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D44
+U 1 1 5924F4D0
+P 10250 4300
+F 0 "D44" H 10250 4400 50  0000 C CNN
+F 1 "D" H 10250 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 10250 4300 50  0001 C CNN
+F 3 "" H 10250 4300 50  0001 C CNN
+	1    10250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW51
+U 1 1 5924F4D9
+P 11000 4050
+F 0 "SW51" H 11150 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 11000 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11000 4050 50  0001 C CNN
+F 3 "" H 11000 4050 50  0000 C CNN
+	1    11000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D48
+U 1 1 5924F4DF
+P 11000 4300
+F 0 "D48" H 11000 4400 50  0000 C CNN
+F 1 "D" H 11000 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11000 4300 50  0001 C CNN
+F 3 "" H 11000 4300 50  0001 C CNN
+	1    11000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW55
+U 1 1 5924F4E8
+P 11750 4050
+F 0 "SW55" H 11900 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 11750 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 11750 4050 50  0001 C CNN
+F 3 "" H 11750 4050 50  0000 C CNN
+	1    11750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D52
+U 1 1 5924F4EE
+P 11750 4300
+F 0 "D52" H 11750 4400 50  0000 C CNN
+F 1 "D" H 11750 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 11750 4300 50  0001 C CNN
+F 3 "" H 11750 4300 50  0001 C CNN
+	1    11750 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW59
+U 1 1 5924F4F7
+P 12500 4050
+F 0 "SW59" H 12650 4160 50  0000 C CNN
+F 1 "SW_PUSH" H 12500 3970 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_100" H 12500 4050 50  0001 C CNN
+F 3 "" H 12500 4050 50  0000 C CNN
+	1    12500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D56
+U 1 1 5924F4FD
+P 12500 4300
+F 0 "D56" H 12500 4400 50  0000 C CNN
+F 1 "D" H 12500 4200 50  0000 C CNN
+F 2 "canadian_footprints:D_SOD123_ThroughHole" H 12500 4300 50  0001 C CNN
+F 3 "" H 12500 4300 50  0001 C CNN
+	1    12500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L SW_PUSH SW20
+U 1 1 59253C1A
+P 5600 3750
+F 0 "SW20" H 5750 3860 50  0000 C CNN
+F 1 "sw_dbl1" H 5600 3670 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_200" H 5600 3750 50  0001 C CNN
+F 3 "" H 5600 3750 50  0000 C CNN
+	1    5600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW29
+U 1 1 59254139
+P 7150 3750
+F 0 "SW29" H 7300 3860 50  0000 C CNN
+F 1 "sw_dbl2" H 7150 3670 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_200" H 7150 3750 50  0001 C CNN
+F 3 "" H 7150 3750 50  0000 C CNN
+	1    7150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW38
+U 1 1 592542C3
+P 8700 3750
+F 0 "SW38" H 8850 3860 50  0000 C CNN
+F 1 "sw_dbl3" H 8700 3670 50  0000 C CNN
+F 2 "canadian_footprints:Mx_Alps_200" H 8700 3750 50  0001 C CNN
+F 3 "" H 8700 3750 50  0000 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+Text Label 13100 1750 0    60   ~ 0
+row0
+Text Label 13100 2650 0    60   ~ 0
+row1
+Text Label 13100 3550 0    60   ~ 0
+row2
+Text Label 13100 4450 0    60   ~ 0
+row3
+Text Label 2250 1150 1    60   ~ 0
+col0
+Text Label 3000 1150 1    60   ~ 0
+col1
+Text Label 3800 1150 1    60   ~ 0
+col2
+Text Label 4550 1150 1    60   ~ 0
+col3
+Text Label 5300 1150 1    60   ~ 0
+col4
+Text Label 6050 1150 1    60   ~ 0
+col5
+Text Label 6850 1150 1    60   ~ 0
+col6
+Text Label 7600 1150 1    60   ~ 0
+col7
+Text Label 8400 1150 1    60   ~ 0
+col8
+Text Label 9150 1150 1    60   ~ 0
+col9
+Text Label 9950 1150 1    60   ~ 0
+col10
+Text Label 10700 1150 1    60   ~ 0
+col11
+Text Label 11450 1150 1    60   ~ 0
+col12
+Text Label 12200 1150 1    60   ~ 0
+col13
+$Comp
+L ProMicro U1
+U 1 1 592AA89B
+P 9850 6850
+F 0 "U1" H 9850 6000 60  0000 C CNN
+F 1 "ProMicro" H 9850 7300 60  0000 C CNN
+F 2 "canadian_footprints:Pro_Micro" H 9850 6850 60  0001 C CNN
+F 3 "" H 9850 6850 60  0001 C CNN
+	1    9850 6850
+	1    0    0    -1  
+$EndComp
+Text Label 9350 6500 2    60   ~ 0
+col13
+Text Label 9350 6600 2    60   ~ 0
+col12
+Text Label 10350 6900 0    60   ~ 0
+col11
+$Comp
+L GND #PWR01
+U 1 1 592AC907
+P 9350 6700
+F 0 "#PWR01" H 9350 6450 50  0001 C CNN
+F 1 "GND" H 9350 6550 50  0000 C CNN
+F 2 "" H 9350 6700 50  0001 C CNN
+F 3 "" H 9350 6700 50  0001 C CNN
+	1    9350 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR02
+U 1 1 592ACA71
+P 9350 6800
+F 0 "#PWR02" H 9350 6550 50  0001 C CNN
+F 1 "GND" H 9350 6650 50  0000 C CNN
+F 2 "" H 9350 6800 50  0001 C CNN
+F 3 "" H 9350 6800 50  0001 C CNN
+	1    9350 6800
+	0    1    1    0   
+$EndComp
+Text Label 10350 7000 0    60   ~ 0
+col10
+Text Label 10350 7100 0    60   ~ 0
+col9
+Text Label 10350 7200 0    60   ~ 0
+col8
+Text Label 10350 7300 0    60   ~ 0
+col7
+Text Label 10350 7400 0    60   ~ 0
+col6
+Text Label 10350 7500 0    60   ~ 0
+col5
+Text Label 10350 7600 0    60   ~ 0
+col4
+Text Label 9350 6900 2    60   ~ 0
+col0
+Text Label 9350 7000 2    60   ~ 0
+col1
+Text Label 9350 7100 2    60   ~ 0
+col2
+Text Label 9350 7200 2    60   ~ 0
+col3
+Text Label 9350 7300 2    60   ~ 0
+row0
+Text Label 9350 7400 2    60   ~ 0
+row3
+Text Label 9350 7500 2    60   ~ 0
+row2
+Text Label 9350 7600 2    60   ~ 0
+row1
+$Comp
+L VCC #PWR03
+U 1 1 592AE08A
+P 10350 6800
+F 0 "#PWR03" H 10350 6650 50  0001 C CNN
+F 1 "VCC" H 10350 6950 50  0000 C CNN
+F 2 "" H 10350 6800 50  0001 C CNN
+F 3 "" H 10350 6800 50  0001 C CNN
+	1    10350 6800
+	0    1    1    0   
+$EndComp
+NoConn ~ 10350 6500
+$Comp
+L GND #PWR04
+U 1 1 592AFB7D
+P 10350 6600
+F 0 "#PWR04" H 10350 6350 50  0001 C CNN
+F 1 "GND" H 10350 6450 50  0000 C CNN
+F 2 "" H 10350 6600 50  0001 C CNN
+F 3 "" H 10350 6600 50  0001 C CNN
+	1    10350 6600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 1350 2850 1500
+Wire Wire Line
+	2850 1500 2400 1500
+Wire Wire Line
+	2400 1500 2400 1600
+Wire Wire Line
+	3600 1350 3600 1500
+Wire Wire Line
+	3600 1500 3150 1500
+Wire Wire Line
+	3150 1500 3150 1600
+Wire Wire Line
+	4400 1350 4400 1500
+Wire Wire Line
+	4400 1500 3950 1500
+Wire Wire Line
+	3950 1500 3950 1600
+Wire Wire Line
+	5150 1350 5150 1500
+Wire Wire Line
+	5150 1500 4700 1500
+Wire Wire Line
+	4700 1500 4700 1600
+Wire Wire Line
+	5900 1350 5900 1500
+Wire Wire Line
+	5900 1500 5450 1500
+Wire Wire Line
+	5450 1500 5450 1600
+Wire Wire Line
+	6650 1350 6650 1500
+Wire Wire Line
+	6650 1500 6200 1500
+Wire Wire Line
+	6200 1500 6200 1600
+Wire Wire Line
+	7450 1350 7450 1500
+Wire Wire Line
+	7450 1500 7000 1500
+Wire Wire Line
+	7000 1500 7000 1600
+Wire Wire Line
+	8200 1350 8200 1500
+Wire Wire Line
+	8200 1500 7750 1500
+Wire Wire Line
+	7750 1500 7750 1600
+Wire Wire Line
+	9000 1350 9000 1500
+Wire Wire Line
+	9000 1500 8550 1500
+Wire Wire Line
+	8550 1500 8550 1600
+Wire Wire Line
+	9750 1350 9750 1500
+Wire Wire Line
+	9750 1500 9300 1500
+Wire Wire Line
+	9300 1500 9300 1600
+Wire Wire Line
+	10550 1350 10550 1500
+Wire Wire Line
+	10550 1500 10100 1500
+Wire Wire Line
+	10100 1500 10100 1600
+Wire Wire Line
+	11300 1350 11300 1500
+Wire Wire Line
+	11300 1500 10850 1500
+Wire Wire Line
+	10850 1500 10850 1600
+Wire Wire Line
+	12050 1350 12050 1500
+Wire Wire Line
+	12050 1500 11600 1500
+Wire Wire Line
+	11600 1500 11600 1600
+Wire Wire Line
+	12800 1350 12800 1500
+Wire Wire Line
+	12800 1500 12350 1500
+Wire Wire Line
+	12350 1500 12350 1600
+Wire Wire Line
+	2850 2250 2850 2400
+Wire Wire Line
+	2850 2400 2400 2400
+Wire Wire Line
+	2400 2400 2400 2500
+Wire Wire Line
+	3600 2250 3600 2400
+Wire Wire Line
+	3600 2400 3150 2400
+Wire Wire Line
+	3150 2400 3150 2500
+Wire Wire Line
+	4400 2250 4400 2400
+Wire Wire Line
+	4400 2400 3950 2400
+Wire Wire Line
+	3950 2400 3950 2500
+Wire Wire Line
+	5150 2250 5150 2400
+Wire Wire Line
+	5150 2400 4700 2400
+Wire Wire Line
+	4700 2400 4700 2500
+Wire Wire Line
+	5900 2250 5900 2400
+Wire Wire Line
+	5900 2400 5450 2400
+Wire Wire Line
+	5450 2400 5450 2500
+Wire Wire Line
+	6650 2250 6650 2400
+Wire Wire Line
+	6650 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 2500
+Wire Wire Line
+	7450 2250 7450 2400
+Wire Wire Line
+	7450 2400 7000 2400
+Wire Wire Line
+	7000 2400 7000 2500
+Wire Wire Line
+	8200 2250 8200 2400
+Wire Wire Line
+	8200 2400 7750 2400
+Wire Wire Line
+	7750 2400 7750 2500
+Wire Wire Line
+	9000 2250 9000 2400
+Wire Wire Line
+	9000 2400 8550 2400
+Wire Wire Line
+	8550 2400 8550 2500
+Wire Wire Line
+	9750 2250 9750 2400
+Wire Wire Line
+	9750 2400 9300 2400
+Wire Wire Line
+	9300 2400 9300 2500
+Wire Wire Line
+	10550 2250 10550 2400
+Wire Wire Line
+	10550 2400 10100 2400
+Wire Wire Line
+	10100 2400 10100 2500
+Wire Wire Line
+	11300 2250 11300 2400
+Wire Wire Line
+	11300 2400 10850 2400
+Wire Wire Line
+	10850 2400 10850 2500
+Wire Wire Line
+	12050 2250 12050 2400
+Wire Wire Line
+	12050 2400 11600 2400
+Wire Wire Line
+	11600 2400 11600 2500
+Wire Wire Line
+	12800 2250 12800 2400
+Wire Wire Line
+	12800 2400 12350 2400
+Wire Wire Line
+	12350 2400 12350 2500
+Wire Wire Line
+	2850 3150 2850 3300
+Wire Wire Line
+	2850 3300 2400 3300
+Wire Wire Line
+	2400 3300 2400 3400
+Wire Wire Line
+	3600 3150 3600 3300
+Wire Wire Line
+	3600 3300 3150 3300
+Wire Wire Line
+	3150 3300 3150 3400
+Wire Wire Line
+	4400 3150 4400 3300
+Wire Wire Line
+	4400 3300 3950 3300
+Wire Wire Line
+	3950 3300 3950 3400
+Wire Wire Line
+	5150 3150 5150 3300
+Wire Wire Line
+	5150 3300 4700 3300
+Wire Wire Line
+	4700 3300 4700 3400
+Wire Wire Line
+	5900 3150 5900 3300
+Wire Wire Line
+	5900 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 3400
+Wire Wire Line
+	6650 3150 6650 3300
+Wire Wire Line
+	6650 3300 6200 3300
+Wire Wire Line
+	6200 3300 6200 3400
+Wire Wire Line
+	7450 3150 7450 3300
+Wire Wire Line
+	7450 3300 7000 3300
+Wire Wire Line
+	7000 3300 7000 3400
+Wire Wire Line
+	8200 3150 8200 3300
+Wire Wire Line
+	8200 3300 7750 3300
+Wire Wire Line
+	7750 3300 7750 3400
+Wire Wire Line
+	9000 3150 9000 3300
+Wire Wire Line
+	9000 3300 8550 3300
+Wire Wire Line
+	8550 3300 8550 3400
+Wire Wire Line
+	9750 3150 9750 3300
+Wire Wire Line
+	9750 3300 9300 3300
+Wire Wire Line
+	9300 3300 9300 3400
+Wire Wire Line
+	10550 3150 10550 3300
+Wire Wire Line
+	10550 3300 10100 3300
+Wire Wire Line
+	10100 3300 10100 3400
+Wire Wire Line
+	11300 3150 11300 3300
+Wire Wire Line
+	11300 3300 10850 3300
+Wire Wire Line
+	10850 3300 10850 3400
+Wire Wire Line
+	12050 3150 12050 3300
+Wire Wire Line
+	12050 3300 11600 3300
+Wire Wire Line
+	11600 3300 11600 3400
+Wire Wire Line
+	12800 3150 12800 3300
+Wire Wire Line
+	12800 3300 12350 3300
+Wire Wire Line
+	12350 3300 12350 3400
+Wire Wire Line
+	2850 4050 2850 4200
+Wire Wire Line
+	2850 4200 2400 4200
+Wire Wire Line
+	2400 4200 2400 4300
+Wire Wire Line
+	3600 4050 3600 4200
+Wire Wire Line
+	3600 4200 3150 4200
+Wire Wire Line
+	3150 4200 3150 4300
+Wire Wire Line
+	4400 4050 4400 4200
+Wire Wire Line
+	4400 4200 3950 4200
+Wire Wire Line
+	3950 4200 3950 4300
+Wire Wire Line
+	5150 4050 5150 4200
+Wire Wire Line
+	5150 4200 4700 4200
+Wire Wire Line
+	4700 4200 4700 4300
+Wire Wire Line
+	5900 3750 5900 4200
+Wire Wire Line
+	5900 4200 5450 4200
+Wire Wire Line
+	5450 4200 5450 4300
+Wire Wire Line
+	6650 4050 6650 4200
+Wire Wire Line
+	6650 4200 6200 4200
+Wire Wire Line
+	6200 4200 6200 4300
+Wire Wire Line
+	7450 3750 7450 4200
+Wire Wire Line
+	7450 4200 7000 4200
+Wire Wire Line
+	7000 4200 7000 4300
+Wire Wire Line
+	8200 4050 8200 4200
+Wire Wire Line
+	8200 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 4300
+Wire Wire Line
+	9000 3750 9000 4200
+Wire Wire Line
+	9000 4200 8550 4200
+Wire Wire Line
+	8550 4200 8550 4300
+Wire Wire Line
+	9750 4050 9750 4200
+Wire Wire Line
+	9750 4200 9300 4200
+Wire Wire Line
+	9300 4200 9300 4300
+Wire Wire Line
+	10550 4050 10550 4200
+Wire Wire Line
+	10550 4200 10100 4200
+Wire Wire Line
+	10100 4200 10100 4300
+Wire Wire Line
+	11300 4050 11300 4200
+Wire Wire Line
+	11300 4200 10850 4200
+Wire Wire Line
+	10850 4200 10850 4300
+Wire Wire Line
+	12050 4050 12050 4200
+Wire Wire Line
+	12050 4200 11600 4200
+Wire Wire Line
+	11600 4200 11600 4300
+Wire Wire Line
+	12800 4050 12800 4200
+Wire Wire Line
+	12800 4200 12350 4200
+Wire Wire Line
+	12350 4200 12350 4300
+Connection ~ 5900 4050
+Connection ~ 7450 4050
+Connection ~ 9000 4050
+Wire Wire Line
+	2700 1600 2700 1750
+Wire Wire Line
+	2700 1750 13100 1750
+Wire Wire Line
+	12650 1750 12650 1600
+Wire Wire Line
+	3450 1600 3450 1750
+Connection ~ 3450 1750
+Wire Wire Line
+	4250 1600 4250 1750
+Connection ~ 4250 1750
+Wire Wire Line
+	5000 1600 5000 1750
+Connection ~ 5000 1750
+Wire Wire Line
+	5750 1600 5750 1750
+Connection ~ 5750 1750
+Wire Wire Line
+	6500 1600 6500 1750
+Connection ~ 6500 1750
+Wire Wire Line
+	7300 1600 7300 1750
+Connection ~ 7300 1750
+Wire Wire Line
+	8050 1600 8050 1750
+Connection ~ 8050 1750
+Wire Wire Line
+	8850 1600 8850 1750
+Connection ~ 8850 1750
+Wire Wire Line
+	9600 1600 9600 1750
+Connection ~ 9600 1750
+Wire Wire Line
+	10400 1600 10400 1750
+Connection ~ 10400 1750
+Wire Wire Line
+	11150 1600 11150 1750
+Connection ~ 11150 1750
+Wire Wire Line
+	11900 1600 11900 1750
+Connection ~ 11900 1750
+Wire Wire Line
+	12650 2500 12650 2650
+Wire Wire Line
+	2700 2650 13100 2650
+Wire Wire Line
+	2700 2650 2700 2500
+Wire Wire Line
+	2700 3400 2700 3550
+Wire Wire Line
+	2700 3550 13100 3550
+Wire Wire Line
+	12650 3550 12650 3400
+Wire Wire Line
+	12650 4300 12650 4450
+Wire Wire Line
+	2700 4450 13100 4450
+Wire Wire Line
+	2700 4450 2700 4300
+Wire Wire Line
+	3450 2500 3450 2650
+Connection ~ 3450 2650
+Wire Wire Line
+	4250 2500 4250 2650
+Connection ~ 4250 2650
+Wire Wire Line
+	5000 2500 5000 2650
+Connection ~ 5000 2650
+Wire Wire Line
+	5750 2500 5750 2650
+Connection ~ 5750 2650
+Wire Wire Line
+	6500 2500 6500 2650
+Connection ~ 6500 2650
+Wire Wire Line
+	7300 2500 7300 2650
+Connection ~ 7300 2650
+Wire Wire Line
+	8050 2500 8050 2650
+Connection ~ 8050 2650
+Wire Wire Line
+	3450 3400 3450 3550
+Connection ~ 3450 3550
+Wire Wire Line
+	4250 3400 4250 3550
+Connection ~ 4250 3550
+Wire Wire Line
+	5000 3400 5000 3550
+Connection ~ 5000 3550
+Wire Wire Line
+	5750 3400 5750 3550
+Connection ~ 5750 3550
+Wire Wire Line
+	6500 3400 6500 3550
+Connection ~ 6500 3550
+Wire Wire Line
+	7300 3400 7300 3550
+Connection ~ 7300 3550
+Wire Wire Line
+	8050 3400 8050 3550
+Connection ~ 8050 3550
+Wire Wire Line
+	3450 4300 3450 4450
+Connection ~ 3450 4450
+Wire Wire Line
+	4250 4300 4250 4450
+Connection ~ 4250 4450
+Wire Wire Line
+	5000 4300 5000 4450
+Connection ~ 5000 4450
+Wire Wire Line
+	5750 4300 5750 4450
+Connection ~ 5750 4450
+Wire Wire Line
+	6500 4300 6500 4450
+Connection ~ 6500 4450
+Wire Wire Line
+	7300 4300 7300 4450
+Connection ~ 7300 4450
+Wire Wire Line
+	8050 4300 8050 4450
+Connection ~ 8050 4450
+Wire Wire Line
+	8850 2500 8850 2650
+Connection ~ 8850 2650
+Wire Wire Line
+	9600 2500 9600 2650
+Connection ~ 9600 2650
+Wire Wire Line
+	10400 2500 10400 2650
+Connection ~ 10400 2650
+Wire Wire Line
+	11150 2500 11150 2650
+Connection ~ 11150 2650
+Wire Wire Line
+	11900 2500 11900 2650
+Connection ~ 11900 2650
+Wire Wire Line
+	8850 3400 8850 3550
+Connection ~ 8850 3550
+Wire Wire Line
+	9600 3400 9600 3550
+Connection ~ 9600 3550
+Wire Wire Line
+	10400 3400 10400 3550
+Connection ~ 10400 3550
+Wire Wire Line
+	11150 3400 11150 3550
+Connection ~ 11150 3550
+Wire Wire Line
+	11900 3400 11900 3550
+Connection ~ 11900 3550
+Wire Wire Line
+	11900 4300 11900 4450
+Connection ~ 11900 4450
+Wire Wire Line
+	11150 4300 11150 4450
+Connection ~ 11150 4450
+Wire Wire Line
+	10400 4300 10400 4450
+Connection ~ 10400 4450
+Wire Wire Line
+	9600 4300 9600 4450
+Connection ~ 9600 4450
+Wire Wire Line
+	8850 4300 8850 4450
+Connection ~ 8850 4450
+Connection ~ 12650 1750
+Connection ~ 12650 2650
+Connection ~ 12650 3550
+Connection ~ 12650 4450
+Connection ~ 2250 1350
+Connection ~ 3000 1350
+Connection ~ 3800 1350
+Connection ~ 4550 1350
+Connection ~ 5300 1350
+Connection ~ 6050 1350
+Connection ~ 6850 1350
+Connection ~ 7600 1350
+Connection ~ 8400 1350
+Connection ~ 9150 1350
+Connection ~ 9950 1350
+Connection ~ 10700 1350
+Connection ~ 11450 1350
+Connection ~ 12200 1350
+Wire Wire Line
+	2250 1150 2250 4050
+Connection ~ 2250 2250
+Connection ~ 2250 3150
+Wire Wire Line
+	3000 1150 3000 4050
+Connection ~ 3000 2250
+Connection ~ 3000 3150
+Wire Wire Line
+	3800 1150 3800 4050
+Connection ~ 3800 2250
+Connection ~ 3800 3150
+Wire Wire Line
+	4550 1150 4550 4050
+Connection ~ 4550 2250
+Connection ~ 4550 3150
+Wire Wire Line
+	5300 1150 5300 4050
+Connection ~ 5300 2250
+Connection ~ 5300 3150
+Connection ~ 5300 3750
+Wire Wire Line
+	6050 1150 6050 4050
+Connection ~ 6050 3150
+Connection ~ 6050 2250
+Wire Wire Line
+	6850 1150 6850 4050
+Connection ~ 6850 2250
+Connection ~ 6850 3150
+Connection ~ 6850 3750
+Wire Wire Line
+	7600 1150 7600 4050
+Connection ~ 7600 2250
+Connection ~ 7600 3150
+Wire Wire Line
+	8400 1150 8400 4050
+Connection ~ 8400 3750
+Connection ~ 8400 3150
+Connection ~ 8400 2250
+Wire Wire Line
+	9150 1150 9150 4050
+Connection ~ 9150 2250
+Connection ~ 9150 3150
+Wire Wire Line
+	9950 1150 9950 4050
+Connection ~ 9950 2250
+Connection ~ 9950 3150
+Wire Wire Line
+	10700 1150 10700 4050
+Connection ~ 10700 2250
+Connection ~ 10700 3150
+Wire Wire Line
+	11450 1150 11450 4050
+Connection ~ 11450 3150
+Connection ~ 11450 2250
+Wire Wire Line
+	12200 1150 12200 4050
+Connection ~ 12200 2250
+Connection ~ 12200 3150
+$Comp
+L SW_PUSH RESET1
+U 1 1 595C6697
+P 11000 6700
+F 0 "RESET1" H 11150 6810 50  0000 C CNN
+F 1 "SW_PUSH" H 11000 6620 50  0000 C CNN
+F 2 "canadian_footprints:SW_TACT_ALPS_SKQGABE010" H 11000 6700 50  0001 C CNN
+F 3 "" H 11000 6700 50  0000 C CNN
+	1    11000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 595C67B2
+P 11300 6700
+F 0 "#PWR05" H 11300 6450 50  0001 C CNN
+F 1 "GND" H 11300 6550 50  0000 C CNN
+F 2 "" H 11300 6700 50  0001 C CNN
+F 3 "" H 11300 6700 50  0001 C CNN
+	1    11300 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10700 6700 10350 6700
+$EndSCHEMATC

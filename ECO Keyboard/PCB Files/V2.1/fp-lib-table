@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name eco)(type KiCad)(uri "$(KIPRJMOD)/eco.pretty")(options "")(descr ""))
+  (lib (name canadian_footprints)(type KiCad)(uri "D:/Dropbox/Keyboard Stuff/My Open Source Stuff/KiCAD Libs/canadian_footprints.pretty")(options "")(descr ""))
+)
